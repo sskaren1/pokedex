@@ -168,14 +168,14 @@ const getColorPokemon = async (id) => {
   return color[data.color.name];
 };
 
-const allPokemon = btnGetAllPokemon.onclick = async() => {
+const allPokemon = btnGetAllPokemon.onclick = () => {
   if (allPokemonsContainer.classList.contains("activo")) {
     allPokemonsContainer.classList.remove("activo");
     btnGetAllPokemon.textContent='Ver todos';
   } else {
     allPokemonsContainer.classList.add("activo");
     btnGetAllPokemon.textContent='Ocultar';
-    await obtenerAllPokemones();
+    obtenerAllPokemones();
   }
 };
 // vamos a crear una funcion para obtener todos los pokemones
