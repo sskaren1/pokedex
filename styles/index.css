@@ -363,7 +363,7 @@ button {
 .pokedex {
   background-color: #f32a2a;
   max-width: 40rem;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   border-radius: 1rem;
 }
 
@@ -398,6 +398,10 @@ button {
   margin: 0 0 2rem;
 }
 
+.search input[type='text'] {
+  text-align: center;
+}
+
 #pokemonInputSearch {
   border-radius: 1rem;
   width: 25rem;
@@ -419,5 +423,35 @@ button {
 .pokemonStats {
   color: black;
   text-align: center;
+}
+
+.allPokemons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+}
+
+.allCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem;
+  border: 1px solid red;
+}
+
+.allCard .card-image {
+  height: 250px;
+}
+
+.activo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=index.css.map */

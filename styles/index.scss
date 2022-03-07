@@ -14,7 +14,7 @@
 .pokedex{
     background-color: $pokedex-bg;
     max-width: 40rem;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
     border-radius: 1rem;
 
     .container{
@@ -43,6 +43,9 @@
     display: flex;
     justify-content: space-between;
     margin: 0 0 $margin_elemt;
+    input[type='text']{
+        text-align: center;
+    }
 }
 #pokemonInputSearch{
     border-radius: 1rem;
@@ -69,3 +72,21 @@
     text-align: center;
 }
 
+//All Pokemon
+.allPokemons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+}
+.allCard{
+    display: flex;
+    margin: 2rem;
+    border: 1px solid red;
+    .card-image{
+        height: 250px;
+    }
+}
+.activo{
+    display: flex;
+}
