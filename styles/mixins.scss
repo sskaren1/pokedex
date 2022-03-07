@@ -1,0 +1,86 @@
+/** Media Queries **/
+@import "./variables.scss";
+
+// Media queries
+@mixin jio_phone {
+    @media only screen and (min-width: $jio_phone) {
+        @content;
+    }
+}
+// #{$telefono}
+@mixin telefono {
+    @media only screen and (min-width: $telefono) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media only screen and (min-width: $tablet) {
+        @content;
+    }
+}  
+@mixin desktop {
+    @media only screen and (min-width: $desktop) {
+        @content;
+    }
+}
+@mixin macbook_air {
+    @media only screen and (min-width: $macbook_air) {
+        @content;
+    }
+}
+@mixin macbook_pro_13 {
+    @media only screen and (min-width: $macbook_pro_13) {
+        @content;
+    }
+}
+
+// Grid
+@mixin grid-columns($columns, $spacing) {
+    grid-template-rows: unset;
+    display: grid;
+    column-gap: $spacing;
+    grid-template-columns: repeat($columns, 1fr);
+    align-items: center;//para centrar verticalmente
+    justify-items: center;//para centrar horizontalmente
+    grid-auto-flow: column;
+}
+@mixin grid-rows($rows,$spacing) {
+    grid-template-columns: unset;
+    display:grid;
+    row-gap: $spacing;
+    grid-template-rows: repeat($rows, 1fr);
+    align-items: center;//para centrar verticalmente
+    justify-items: center;//para centrar horizontalmente
+}
+@mixin grid-col-row($columns,$rows,$spacing) {
+    display:grid;
+    gap: $spacing;
+    grid-template-columns: repeat($columns, 1fr);
+    grid-template-rows: repeat($rows, 1fr);
+    align-items: center;//para centrar verticalmente
+    justify-items: center;//para centrar horizontalmente
+}
+@mixin grid-col-row-2-var($column1,$column2,$row1,$row2,$spacing) {
+    display:grid;
+    gap: $spacing;
+    grid-template-columns: $column1 $column2;
+    grid-template-rows: $row1 $row2;
+    align-items: center;//para centrar verticalmente
+    justify-items: center;//para centrar horizontalmente
+}
+@mixin grid-col-var($colum1,$colum2,$spacing) {
+    grid-template-rows: unset;
+    display:grid;
+    grid-template-columns: $colum1 $colum2;
+    column-gap: $spacing;
+    align-items: center;//para centrar verticalmente
+    justify-items: center;//para centrar horizontalmente
+}
+@mixin grid-row-var($row1,$row2,$spacing) {
+    grid-template-columns: unset;
+    display:grid;
+    grid-template-rows: $row1 $row2;
+    row-gap: $spacing;
+    align-items: center;//para centrar verticalmente
+    justify-items: center;//para centrar horizontalmente
+}

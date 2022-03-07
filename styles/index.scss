@@ -1,0 +1,71 @@
+@import "./colours.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./typography.scss";
+@import "./global.scss";
+@import "./buttons.scss";
+
+
+.title-main{
+    margin: $margin_elemt;
+}
+
+// Pokedex
+.pokedex{
+    background-color: $pokedex-bg;
+    max-width: 40rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+
+    .container{
+        padding: 3rem 2rem;
+    }
+
+}
+
+//Card
+.card{
+    display: flex;
+    width: 25rem;
+    margin: 0 auto $margin_elemt;
+    border-radius: 1rem;
+    background-color: $card-bg;
+}
+.text-title {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+
+// Search
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 $margin_elemt;
+}
+#pokemonInputSearch{
+    border-radius: 1rem;
+    width: 25rem;
+    margin-right: $margin_elemt;
+}
+
+//Buttons
+.buttons{
+    text-align: center;
+}
+
+// Modal
+.modal-content{
+    border-radius: 1rem;
+}
+.modal-body{
+    img{
+        width: 20rem;
+    }
+}
+.pokemonStats{
+    color: $neutral-1;
+    text-align: center;
+}
+

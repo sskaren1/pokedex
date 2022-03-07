@@ -1,0 +1,31 @@
+/** Media Queries **/
+.button {
+  margin: 1rem 0 1rem;
+  padding: 0.6rem 6rem;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 480px) {
+  .button {
+    padding: 0.8rem 6rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .button {
+    padding: 0.8rem 4rem;
+    margin: 0;
+  }
+}
+
+.button--view {
+  display: inline-block;
+  background-color: #f99e01;
+}
+/*# sourceMappingURL=buttons.css.map */

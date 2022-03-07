@@ -1,0 +1,423 @@
+/** Media Queries **/
+/** Media Queries **/
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  color: #0f394e;
+}
+
+h1 {
+  color: #4df48c;
+  font-size: 1.8rem;
+}
+
+@media only screen and (min-width: 300px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+@media only screen and (min-width: 300px) {
+  h2 {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  h2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 3.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h2 {
+    font-size: 3.6rem;
+  }
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+@media only screen and (min-width: 300px) {
+  h3 {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  h3 {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h3 {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 300px) {
+  h4 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  h4 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h4 {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h4 {
+    font-size: 2.4rem;
+  }
+}
+
+p, span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: white;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 300px) {
+  p, span {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  p, span {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  p, span {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  p, span {
+    font-size: 1.8rem;
+  }
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+a:hover {
+  color: #4df48c;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) {
+  a {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  a {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  a {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  a {
+    font-size: 1.8rem;
+  }
+}
+
+i {
+  text-decoration: none;
+  color: white;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  font-size: 1.4rem;
+}
+
+i:hover {
+  color: #4df48c;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) {
+  i {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  i {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  i {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  i {
+    font-size: 2.2rem;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 2.5rem;
+}
+
+@media only screen and (min-width: 300px) {
+  li {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  li {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  li {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  li {
+    font-size: 1.8rem;
+  }
+}
+
+/** Media Queries **/
+html {
+  font-size: 62.5%;
+  /* 1 rem = 10px */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  /*inherit:hereda del elemento padre*/
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a0a0a;
+}
+
+[class$="__container"] {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1440px) {
+  [class$="__container"] {
+    max-width: 1900px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  [class$="__container"] {
+    max-width: 2800px;
+  }
+}
+
+img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+/** Media Queries **/
+.button {
+  margin: 1rem 0 1rem;
+  padding: 0.6rem 6rem;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 480px) {
+  .button {
+    padding: 0.8rem 6rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .button {
+    padding: 0.8rem 4rem;
+    margin: 0;
+  }
+}
+
+.button--view {
+  display: inline-block;
+  background-color: #f99e01;
+}
+
+.title-main {
+  margin: 2rem;
+}
+
+.pokedex {
+  background-color: #f32a2a;
+  max-width: 40rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.pokedex .container {
+  padding: 3rem 2rem;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25rem;
+  margin: 0 auto 2rem;
+  border-radius: 1rem;
+  background-color: #0a0a0a;
+}
+
+.text-title {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: transparent;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 2rem;
+}
+
+#pokemonInputSearch {
+  border-radius: 1rem;
+  width: 25rem;
+  margin-right: 2rem;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.modal-content {
+  border-radius: 1rem;
+}
+
+.modal-body img {
+  width: 20rem;
+}
+
+.pokemonStats {
+  color: black;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

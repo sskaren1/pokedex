@@ -1,0 +1,163 @@
+@import "./variables.scss";
+@import "./colours.scss";
+@import "./mixins.scss";
+
+body{
+    font-family: $secondary-font;
+    font-weight: $regular;
+}
+h1, h2, h3, h4 {
+    font-family: $main-font;
+    font-weight: $black;
+    text-align: center;    
+    color: $secondary-title;
+}
+h1 {
+    color: $main-title;
+    font-size: 1.8rem;
+    @include jio_phone{
+        font-size: 2rem;
+    }
+    @include telefono{
+        font-size: 3rem;
+    }
+    @include tablet{
+        font-size: 3.5rem;
+    }
+    @include desktop{
+        font-size: 4rem;
+    }
+}
+h2 {
+    font-size: 2.4rem;
+    @include jio_phone{
+        font-size: 2.6rem;
+    }
+    @include telefono{
+        font-size: 2.8rem;
+    }
+    @include tablet{
+        font-size: 3.2rem;
+    }
+    @include desktop{
+        font-size: 3.6rem;
+    }
+}
+h3 {
+    font-size: 2.2rem;
+    @include jio_phone{
+        font-size: 2.4rem;
+    }
+    @include telefono{
+        font-size: 2.6rem;
+    }
+    @include tablet{
+        font-size: 2.8rem;
+    }
+    @include desktop{
+        font-size: 3rem;
+    }
+}
+h4 {
+    font-size: 1.6rem;
+    @include jio_phone{
+        font-size: 1.8rem;
+    }
+    @include telefono{
+        font-size: 2rem;
+    }
+    @include tablet{
+        font-size: 2.2rem;
+    }
+    @include desktop{
+        font-size: 2.4rem;
+    }
+}
+p, span {
+    font-family: $secondary-font;
+    font-weight: $regular;
+    line-height: 1.5rem;
+    color: $paragraph;
+    font-size: 1rem;
+    @include jio_phone{
+        font-size: 1.2rem;
+    }
+    @include telefono{
+        font-size: 1.4rem;
+    }
+    @include tablet{
+        font-size: 1.6rem;
+    }
+    @include macbook_air{
+        font-size: 1.8rem;
+    }
+}
+a {
+    font-family: $main-font;
+    font-weight: $bold; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color: $link;    
+    transition-property: color;
+    transition-duration: .5s;
+    &:hover {
+        color: $link-hover;
+        cursor: pointer;
+    } 
+    @include jio_phone{
+        font-size: 1.2rem;
+    }
+    @include telefono{
+        font-size: 1.4rem;
+    }
+    @include tablet{
+        font-size: 1.6rem;
+    }
+    @include macbook_air{
+        font-size: 1.8rem;
+    }
+}
+i{
+    text-decoration: none;
+    color: $icon;
+    transition-property: color;
+    transition-duration: .5s;
+    font-size: 1.4rem;
+    &:hover{
+        color: $link-hover;
+        cursor: pointer;
+    }
+    @include jio_phone{
+        font-size: 1.6rem;
+    }
+    @include telefono{
+        font-size: 1.8rem;
+    }
+    @include tablet{
+        font-size: 2rem;
+    }
+    @include macbook_air{
+        font-size: 2.2rem;
+    }
+}
+ul {
+    list-style: none;
+}
+li{
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 2.5rem;
+    @include jio_phone{
+        font-size: 1.2rem;
+    }
+    @include telefono{
+        font-size: 1.4rem;
+    }
+    @include tablet{
+        font-size: 1.6rem;
+    }
+    @include desktop{
+        font-size: 1.8rem;
+    }
+}

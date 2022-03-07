@@ -1,0 +1,41 @@
+//Colours
+// Color palette - SCSS RGB
+$color-1:rgb(10, 10, 10);//utilizado
+$color-2: #f32a2a;//utilizado
+$color-3: rgb(77, 244, 140);//utilizado
+$color-4: rgb(7, 36, 56); //utilizado
+$color-5:rgb(15, 57, 78);//utilizado
+$color-6:rgb(44, 111, 154);
+$color-7:rgb(249, 158, 1);
+$color-8:rgb(250, 202, 63);
+$color-9:rgb(207, 214, 221);
+
+// Neutral
+$neutral-1: rgba(0 , 0, 0, 1);
+$neutral-2: rgba(255 , 255, 255, 1);
+$neutral-3: rgba(128, 128, 128, 1);
+
+//Text
+$main-title: $color-3;
+$secondary-title: $color-5;
+$titles: $neutral-2;
+$paragraph: $neutral-2;
+$link: $neutral-2;
+$icon: $neutral-2; 
+
+//hover
+$link-hover: $color-3;
+
+
+//button
+$btn-blue: $color-4;
+$btn-view: $color-7;
+
+// background
+$main-bg: $color-1;
+$pokedex-bg: $color-2;
+$card-bg: $color-1;
+
+// $shadow: rgba(0, 0, 0, 0.6);
+// $line: $neutral-3;
+
